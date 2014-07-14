@@ -1,0 +1,8 @@
+ros-indigo-rosh-geometry (1.0.1-0saucy) saucy; urgency=high
+
+  * Print a message when trying to load rosh_geometry if roscore isn't running
+  * catkinizing
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Thu, 20 Mar 2014 05:00:00 -0000
+
+

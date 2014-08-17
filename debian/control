@@ -1,0 +1,12 @@
+Source: ros-indigo-rosh-common
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-nav-msgs, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/rosh_common
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosh-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-nav-msgs, ros-indigo-rosh, ros-indigo-roslib, ros-indigo-rosmsg, ros-indigo-rospy, ros-indigo-rostopic, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Description: ROSH plugin for packages in the common stack
